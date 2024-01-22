@@ -4,3 +4,29 @@
   background-repeat: no-repeat;
   background-position: center;
 }
+
+form label {
+  font-size: 25px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+form .form-group input,
+textarea {
+  border: 2px solid rgb(110, 110, 125);
+  border-radius: 9px;
+  height: 3rem;
+  padding: 1rem;
+  color: black;
+}
+
+.form-group input::placeholder {
+  color: black;
+}
+
+.form-group textarea::placeholder {
+  color: black;
+}
+
+.form-group textarea {
+  height: 20vh;
+}
