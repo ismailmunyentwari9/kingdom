@@ -1,22 +1,24 @@
 import React from 'react';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import './App.css';
+import Home from './pages/Home';
+import About from './pages/About';
 import NavBar from './components/NavBar';
-import MiddleHome from './components/MiddleHome';
-import MidleSection from './components/MidleSection';
-import ReadingBoy from './components/ReadingBoy';
 import Footer from './components/Footer';
-import Students from './components/Students';
 
 function App() {
   return (
-    <div className="App">
-      <NavBar />
-      <MiddleHome />
-      <Students />
-      <MidleSection />
-      <ReadingBoy />
-      <Footer />
-    </div>
+    <Router>
+      <div className="App">
+        <NavBar />
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/about" element={<About />} />
+          {/* Add more routes for other components */}
+        </Routes>
+        <Footer />
+      </div>
+    </Router>
   );
 }
 

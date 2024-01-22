@@ -4,9 +4,9 @@ import Boy from './images/girl.jpg';
 const ReadingBoy = () => (
   <div className="container mx-auto w-10/12 p-7">
     <div className="flex flex-col lg:flex-row gap-3 items-center    ">
-      <img className="w-[90%] md:w-[75%] lg:w-[40%] mx-auto container  h-auto rounded-xl" src={Boy} alt="Reading Boy" />
+      <img className="w-full md:w-[75%] lg:w-[40%] mx-auto container  h-auto rounded-xl" src={Boy} alt="Reading Boy" />
 
-      <div className="w-[90%] md:w-[75%] lg:w-[60%] text-sm mx-auto container">
+      <div className="w-full md:w-[75%] lg:w-[60%] text-sm mx-auto container">
         <p>
           <span className="text-lg text-gray-500 font-bold ">Kingdom Of Salomon: </span>
           is not just a school; it is a beacon of educational

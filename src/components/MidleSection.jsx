@@ -1,7 +1,7 @@
 import React from 'react';
 
 const MidleSection = () => (
-  <div className="W-full bg-gray-600 p-5 flex items-center  ">
+  <div className="W-full bg-slate-100 p-5 flex items-center  ">
     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 items-center gap-10 container mx-auto w-11/12">
       <div className="flex flex-col col-span-1  border-2 border-gray-500  rounded-lg p-3">
         <p className="text-center text-[50px]"><i className="fas fa-graduation-cap " /></p>

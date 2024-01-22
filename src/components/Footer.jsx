@@ -1,7 +1,7 @@
 import React from 'react';
 
 const Footer = () => (
-  <div className="w-full bg-gray-600 pb-9 pt-7">
+  <div className="w-full bg-slate-400 pb-9 pt-7">
     <div className="container mx-auto w-9/12 flex gap-12 flex-wrap">
       <div className="col-span-1">
         <p className="font-bold text-[2rem] text-white mb-5 ">Our contacts</p>

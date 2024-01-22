@@ -16,6 +16,7 @@ body {
     'Droid Sans',
     'Helvetica Neue',
     sans-serif;
+  font-family: 'Your Custom Font', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
