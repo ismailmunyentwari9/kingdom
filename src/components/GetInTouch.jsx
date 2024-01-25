@@ -40,7 +40,7 @@ const GetInTouch = () => (
 
           <div className="flex flex-col flex-wrap">
             <p className="font-bold text-2xl text-slate-400">Call</p>
-            <p className="font-bold">+250785837748 / +250785630430</p>
+            <p className="font-bold">+250781950819/   +250786633041</p>
           </div>
         </div>
       </div>

@@ -18,7 +18,7 @@ const NavBar = () => (
           <span><i className="text-lg fa fa-mobile" /></span>
           <span className="text-xs flex flex-col items-start font-bold">
             <p className="text-gray-600">Phone</p>
-            <p>+250785837748/+250725837748</p>
+            <p>+250781950819/+250786633041</p>
           </span>
         </div>
 
@@ -26,7 +26,7 @@ const NavBar = () => (
           <span><i className="text-lg fa fa-envelope" /></span>
           <span className="text-xs flex flex-col items-start font-bold">
             <p className="text-gray-600">E-mail</p>
-            <p>ismailmunyentwari@gmail.com</p>
+            <p>kingdomofsalomon2023@gmail.com</p>
           </span>
         </div>
       </div>
