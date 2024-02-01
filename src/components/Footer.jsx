@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom'; // Import Link from react-router-dom
 
 const Footer = () => (
   <div className="w-full bg-slate-400 pb-9 pt-7">
@@ -39,14 +40,14 @@ const Footer = () => (
           <p className="flex items-center gap-4">
 
             <span className="font-bold">
-              <p>Home</p>
+              <p><Link to="/">Home</Link></p>
             </span>
           </p>
 
           <p className="flex items-center gap-4">
 
             <span className="font-bold">
-              <p>Contacts</p>
+              <p><Link to="/contacts">Contacts</Link></p>
 
             </span>
           </p>
@@ -54,14 +55,14 @@ const Footer = () => (
           <p className="flex items-center gap-4">
 
             <span className="font-bold">
-              <p>About</p>
+              <p><Link to="/about">About</Link></p>
 
             </span>
           </p>
           <p className="flex items-center gap-4">
 
             <span className="font-bold">
-              <p>Blogs</p>
+              <p><Link to="/blogs">Blog</Link></p>
             </span>
           </p>
         </div>

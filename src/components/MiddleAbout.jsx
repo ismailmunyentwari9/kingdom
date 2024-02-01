@@ -6,7 +6,7 @@ const MiddleAbout = () => (
       <p className="text-[2rem] lg:text-[4rem] text-white font-bold animate-bounce italic">
         <i className="fas fa-quote-left ml-2 text-black" />
         {' '}
-        Wellcome To See About Kingdom Of Salomon School
+        Welcome To See About Kingdom Of Salomon School
         <i className="fas fa-quote-right ml-2 text-black" />
       </p>
 

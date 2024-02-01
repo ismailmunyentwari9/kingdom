@@ -6,7 +6,7 @@ const MiddleBlog = () => (
       <p className="text-[2rem] lg:text-[3rem] text-white font-bold animate-bounce italic">
         <i className="fas fa-quote-left ml-2 text-black" />
         {' '}
-        Wellcome To  KingDom Of Salomon School Blog Section
+        Welcome To  KingDom Of Salomon School Blog Section
         <i className="fas fa-quote-right ml-2 text-black" />
       </p>
 

@@ -14,7 +14,6 @@ const MidleSection = () => (
           Learn more about how to apply
           to our school.
         </p>
-      </div>
 
       <div className="col-span-1 border-2 border-gray-500  rounded-lg p-3 ">
         <p className="text-center text-[50px]"><i className="fas fa-school" /></p>
