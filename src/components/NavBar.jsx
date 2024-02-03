@@ -31,10 +31,9 @@ const NavBar = () => (
         </div>
       </div>
       <div className="flex  gap-3 items-start lg:items-center mr-[2%]">
-        <span><i className=" text-white   fab fa-youtube" /></span>
-        <span><i className="text-white    fa fab fa-instagram" /></span>
-        <span><i className="text-white    fab fa-facebook-square" /></span>
-        <span><i className="fab fa-linkedin  " /></span>
+        <span><Link to="https://youtube.com/@Kingdom_2025?si=EIWIADAUMAmVDTH6"><i className=" text-white   fab fa-youtube" /></Link></span>
+        <span><Link to="https://www.instagram.com/kingdom_salomon/"><i className="text-white    fa fab fa-instagram" /></Link></span>
+        <span><Link to="https://www.facebook.com/profile.php?id=61556386191057"><i className="text-white    fab fa-facebook-square" /></Link></span>
       </div>
     </div>
 

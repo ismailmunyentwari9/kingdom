@@ -48,27 +48,27 @@ const GetInTouch = () => (
 
     {/* Form for gettin in touch with us  */}
 
-    <form action="" className="w-full mb-10 ">
+    <form action="https://formspree.io/f/mvoekabb" method="POST" className="w-full mb-10 ">
       <div className="form-group flex lg:flex-row md:flex-row flex-col gap-10 w-[90%] container mx-auto">
         {/* eslint-disable*/}
         <div className="flex flex-col lg:w-1/2 md:w-1/2 w-full">
         <label htmlFor="firstName">First Name:</label>
-        <input type="text" id="firstName" className="form-control" placeholder="First Name" />
+        <input name="FirstName" type="text" id="firstName" className="form-control" placeholder="First Name" />
         </div>
         <div className="flex flex-col lg:w-1/2 md:w-1/2 w-full">
         <label htmlFor="lastName">Last Name:</label>
-        <input type="text" id="lastName" className="form-control" placeholder="Last Name" />
+        <input name="LastName" type="text" id="lastName" className="form-control" placeholder="Last Name" />
         </div>
       </div>
       <div className="form-group flex lg:flex-row md:flex-row flex-col gap-10 w-[90%] mt-5 container mx-auto">
         {/* eslint-disable*/}
         <div className="flex flex-col lg:w-1/2 md:w-1/2 w-full  ">
         <label htmlFor="email">Email Address</label>
-        <input type="email" id="email" className="form-control" placeholder="First Name" />
+        <input name="Email" type="email" id="email" className="form-control" placeholder="First Name" />
         </div>
         <div className="flex flex-col lg:w-1/2 md:w-1/2 w-full">
         <label htmlFor="phone">Tel. Number:</label>
-        <input type="number" id="phone" className="form-control" placeholder="Last Name" />
+        <input name="Phone" type="number" id="phone" className="form-control" placeholder="Last Name" />
         </div>
       </div>
 
@@ -76,7 +76,13 @@ const GetInTouch = () => (
         {/* eslint-disable*/}
         <div className="flex flex-col w-full  ">
         <label htmlFor="message">Message</label>
-        <textarea type="number" id="phone" className="form-control" placeholder="Leave Your Message"/>
+        <textarea name="Message" type="number" id="phone" className="form-control" placeholder="Leave Your Message"/>
+        </div>
+      </div>
+      <div className="form-group flex gap-10 w-[90%] mt-5 container mx-auto">
+        {/* eslint-disable*/}
+        <div className="flex flex-col w-full  ">
+       <button className="bg-black text-white text-xl" type="submit">Submit</button>
         </div>
       </div>
     </form>
