@@ -1,0 +1,53 @@
+.MiddleHome {
+  background: linear-gradient(to left, rgba(132, 138, 123, 0.49), rgba(11, 11, 11, 0.9)), url('./components/images/home.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.MiddleAbout {
+  background: linear-gradient(to left, rgba(132, 138, 123, 0.49), rgba(11, 11, 11, 0.9)), url('./components/images/smillinggilr.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position-y: 25%;
+}
+
+.MiddleContact {
+  background: linear-gradient(to left, rgba(132, 138, 123, 0.49), rgba(11, 11, 11, 0.9)), url('./components/images/contact.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.MiddleBlog {
+  background: linear-gradient(to left, rgba(132, 138, 123, 0.49), rgba(11, 11, 11, 0.9)), url('./components/images/blog.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+form label {
+  font-size: 25px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+form .form-group input,
+textarea {
+  border: 2px solid rgb(110, 110, 125);
+  border-radius: 9px;
+  height: 3rem;
+  padding: 1rem;
+  color: black;
+}
+
+.form-group input::placeholder {
+  color: black;
+}
+
+.form-group textarea::placeholder {
+  color: black;
+}
+
+.form-group textarea {
+  height: 20vh;
+}
