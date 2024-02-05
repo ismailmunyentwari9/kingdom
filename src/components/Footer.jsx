@@ -19,7 +19,7 @@ const Footer = () => (
             <span className="fa fa-phone text-3xl" />
             <span className="font-bold">
               <p>Phone</p>
-              <p>+250 785 837 748</p>
+              <p>+250 781 950 819</p>
             </span>
           </p>
 
@@ -107,7 +107,7 @@ const Footer = () => (
       <div className="col-span-1">
         <p className="font-bold text-[2rem] text-white mb-5 ">Say Something To Us</p>
         <div className="flex flex-col gap-5">
-          <form action="https://formspree.io/f/mrgnpqao" method="POST" className="flex flex-col lg:flex-row gap-10 lg:items-center">
+          <form action="https://formspree.io/f/mrgnpaoy" method="POST" className="flex flex-col lg:flex-row gap-10 lg:items-center">
             <div className="flex flex-col gap-4">
               <input name="Email" className="border-2 rounded-lg border-gray-400 text-lg font-bold text-black" placeholder="Your Email" type="Email" />
               <textarea name="Message" className="border-2 rounded-lg border-gray-400 text-lg font-bold text-black" placeholder="Say Something" type="text" />

@@ -28,7 +28,7 @@ const GetInTouch = () => (
           <p>
             {' '}
             <p className="font-bold text-2xl text-slate-400">Open hours</p>
-            <p className="font-bold">Monday-Sturday: 09:00 AM - 23:00 PM</p>
+            <p className="font-bold">Monday-Friday: 07:00 AM - 5:00 PM</p>
           </p>
         </div>
 
@@ -48,7 +48,7 @@ const GetInTouch = () => (
 
     {/* Form for gettin in touch with us  */}
 
-    <form action="https://formspree.io/f/mvoekabb" method="POST" className="w-full mb-10 ">
+    <form action="https://formspree.io/f/xbjngapp" method="POST" className="w-full mb-10 ">
       <div className="form-group flex lg:flex-row md:flex-row flex-col gap-10 w-[90%] container mx-auto">
         {/* eslint-disable*/}
         <div className="flex flex-col lg:w-1/2 md:w-1/2 w-full">
@@ -64,11 +64,11 @@ const GetInTouch = () => (
         {/* eslint-disable*/}
         <div className="flex flex-col lg:w-1/2 md:w-1/2 w-full  ">
         <label htmlFor="email">Email Address</label>
-        <input name="Email" type="email" id="email" className="form-control" placeholder="First Name" />
+        <input name="Email" type="email" id="email" className="form-control" placeholder="Email" />
         </div>
         <div className="flex flex-col lg:w-1/2 md:w-1/2 w-full">
         <label htmlFor="phone">Tel. Number:</label>
-        <input name="Phone" type="number" id="phone" className="form-control" placeholder="Last Name" />
+        <input name="Phone" type="number" id="phone" className="form-control" placeholder="Tel No" />
         </div>
       </div>
 

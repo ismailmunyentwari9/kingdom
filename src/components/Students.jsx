@@ -8,24 +8,26 @@ const Students = () => (
         <h1 className="text-[4rem] font-bold italic">Who we are</h1>
         <p>
           <i className="fas fa-quote-left mr-2" />
-          Discover the warmth of education
-          at Kingdom of Salomon Primary
-
-          School, nestled in the heart
-          of Gisenyi, Rwanda. As an educational
-          cornerstone in our community, we take
-          immense pride in our unwavering commitment
-          to providing not just an education, but
-          a transformative experience for our students.
-
-          At Kingdom of Salomon, we believe in fostering an
-          environment where curiosity is ignited, dreams
-          are nurtured, and each student is empowered
-          to reach their fullest potential. Our dedicated
-          team of educators is passionate about shaping
-          the future leaders of our region, instilling
-          not just knowledge but also values that will
-          guide them through lifes journey.
+          Kingdom of Solomon Nursery & Primary School,
+          established in 2017 in Rubavu District,
+          Western Province of Rwanda, is dedicated
+          to providing quality education at an
+          affordable price. With a focus on
+          challenging and engaging students
+          in a safe and supportive environment,
+          the school aims to prepare them for
+          a successful future and instill a
+          sense of responsibility and
+          accountability in both teachers
+          and students. The core of school
+          objectives include equipping
+          students to thrive and contribute
+          to their communities, fostering
+          a culture of innovation, enthusiasm,
+          and commitment among teachers and staff,
+          and building trust with parents as a
+          culturally responsive institution
+          that provides a first-class education.
 
           Our school is more than just a place of learning;
           it is a vibrant community that celebrates diversity,

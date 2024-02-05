@@ -6,7 +6,7 @@ const MiddleContact = () => (
       <p className="text-[2rem] lg:text-[3rem] text-white font-bold animate-bounce italic">
         <i className="fas fa-quote-left ml-2 text-black" />
         {' '}
-        Welcome To  Get In Touch With KingDom Of Salomon School
+        Welcome To  Get In Touch With Kingdom Of Salomon School
         <i className="fas fa-quote-right ml-2 text-black" />
       </p>
 
